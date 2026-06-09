@@ -48,8 +48,8 @@ Kali Linux
 
 ## Progress
 
-- [ ] Download Windows Server 2022
-- [ ] Create DC01 virtual machine
+- [x] Download Windows Server 2022
+- [x] Create DC01 virtual machine
 - [ ] Install Windows Server 2022
 - [ ] Configure static IP
 - [ ] Install Active Directory Domain Services
