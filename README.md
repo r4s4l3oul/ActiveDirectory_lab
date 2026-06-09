@@ -50,8 +50,8 @@ Kali Linux
 
 - [x] Download Windows Server 2022
 - [x] Create DC01 virtual machine
-- [ ] Install Windows Server 2022
-- [ ] Configure static IP
+- [x] Install Windows Server 2022
+- [x] Configure static IP
 - [ ] Install Active Directory Domain Services
 - [ ] Create LAB.LOCAL domain
 - [ ] Create users and groups
