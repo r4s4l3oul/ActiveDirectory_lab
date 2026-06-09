@@ -52,8 +52,8 @@ Kali Linux
 - [x] Create DC01 virtual machine
 - [x] Install Windows Server 2022
 - [x] Configure static IP
-- [ ] Install Active Directory Domain Services
-- [ ] Create LAB.LOCAL domain
+- [x] Install Active Directory Domain Services
+- [x] Create LAB.LOCAL domain
 - [ ] Create users and groups
 - [ ] Configure GPOs
 - [ ] Configure SMB shares
