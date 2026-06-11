@@ -56,7 +56,7 @@ Kali Linux
 - [x] Create LAB.LOCAL domain
 - [x] Create users and groups
 - [ ] Configure GPOs
-- [ ] Configure SMB shares
+- [x] Configure SMB shares
 - [x] Join CLIENT01 to the domain
 - [ ] BloodHound analysis
 - [ ] PingCastle audit
