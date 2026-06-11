@@ -54,10 +54,10 @@ Kali Linux
 - [x] Configure static IP
 - [x] Install Active Directory Domain Services
 - [x] Create LAB.LOCAL domain
-- [ ] Create users and groups
+- [x] Create users and groups
 - [ ] Configure GPOs
 - [ ] Configure SMB shares
-- [ ] Join Windows 11 to the domain
+- [x] Join CLIENT01 to the domain
 - [ ] BloodHound analysis
 - [ ] PingCastle audit
 
