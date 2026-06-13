@@ -1,21 +1,12 @@
 # Active Directory Home Lab
 
-## Overview
+## Présentation
 
-This project documents the creation of a complete Active Directory lab environment for learning Windows administration and Active Directory security.
+Laboratoire Active Directory réalisé sous Windows Server 2022 afin d'apprendre l'administration d'un domaine Windows, la gestion des utilisateurs, des groupes, des GPO et des partages réseau.
 
-## Objectives
+---
 
-- Deploy a Windows Server 2022 Domain Controller
-- Configure Active Directory Domain Services (AD DS)
-- Manage users and groups
-- Configure Group Policy Objects (GPO)
-- Configure SMB shares
-- Join a Windows 10 workstation to the domain
-- Perform Active Directory security auditing
-- Learn BloodHound and PingCastle
-
-## Planned Infrastructure
+## Architecture
 
 ```text
 DC01 (Windows Server 2022)
@@ -26,47 +17,111 @@ DC01 (Windows Server 2022)
 └── GPO
 
 CLIENT01 (Windows 10)
-│── Users ymoumen
-└── Domain Joined Workstation
+│
+└── Poste joint au domaine
 
 CLIENT02 (Windows 10)
-│── Users smoumen
-└── Domain Joined Workstation
 
-Kali Linux
+Kali Linux 
 │
-└── Security Auditing
+└── BloodHound / PingCastle
 ```
 
-## Technologies
+---
 
-- Windows Server 2022
-- Active Directory
-- DNS
-- SMB
-- Group Policy
-- Windows 11
-- Kali Linux
-- BloodHound
-- PingCastle
+## Domaine
 
-## Progress
+```text
+ADLAB.LOCAL
+```
 
-- [x] Download Windows Server 2022
-- [x] Create DC01 virtual machine
-- [x] Install Windows Server 2022
-- [x] Configure static IP
-- [x] Install Active Directory Domain Services
-- [x] Create LAB.LOCAL domain
-- [x] Create users and groups
-- [x] Configure GPOs
-- [x] Configure SMB shares
-- [x] Join CLIENT01 to the domain
-- [ ] BloodHound analysis
-- [ ] PingCastle audit
+Organisation actuelle :
 
-## Author
+```text
+ADLAB.LOCAL
+│
+└── Utilisateurs
+    ├── Accueil
+    ├── BTP
+    └── RH
+```
 
-Anass Moumen
+---
 
-Cybersecurity Engineering Student – EFREI Paris
+## Fonctionnalités mises en place
+
+* Création du domaine Active Directory
+* Gestion des utilisateurs
+* Gestion des groupes de sécurité
+* Création d'OU
+* Déploiement de GPO
+* Blocage de l'invite de commande (CMD)
+* Création de partages SMB
+* Gestion des permissions SMB et NTFS
+* Contrôle d'accès par groupes
+* Intégration des CLIENT01/02 au domaine
+* Mappage automatique d'un lecteur réseau
+
+---
+
+## Progression
+
+### Infrastructure
+
+* [x] Installation de Windows Server 2022
+* [x] Déploiement d'Active Directory
+* [x] Configuration DNS
+* [x] Création du domaine ADLAB.LOCAL
+
+### Administration Active Directory
+
+* [x] Création d'utilisateurs
+* [x] Création de groupes
+* [x] Création d'OU
+* [x] Gestion des permissions
+
+### GPO
+
+* [x] Création de GPO
+* [x] Blocage de CMD
+* [x] Mappage de lecteur réseau
+
+### Partages SMB
+
+* [x] Création des partages
+* [x] Permissions SMB
+* [x] Permissions NTFS
+* [x] Contrôle d'accès par groupe
+
+### Clients
+
+* [x] Déploiement de CLIENT01
+* [x] Déploiement de CLIENT02
+* [x] Jointure au domaine
+* [x] Tests d'accès aux ressources
+
+### Sécurité
+
+* [x] Installation de Kali Linux
+* [ ] Analyse BloodHound
+* [ ] Audit PingCastle
+
+---
+
+## Compétences travaillées
+
+* Active Directory
+* Gestion des utilisateurs et groupes
+* Group Policy Objects (GPO)
+* SMB
+* NTFS
+* Contrôle d'accès
+* Administration Windows Server
+* Gestion d'un domaine Windows
+
+---
+
+## Auteur
+
+**Anass Moumen**
+Étudiant ingénieur cybersécurité – EFREI Paris
