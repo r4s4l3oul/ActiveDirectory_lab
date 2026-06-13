@@ -11,7 +11,7 @@ This project documents the creation of a complete Active Directory lab environme
 - Manage users and groups
 - Configure Group Policy Objects (GPO)
 - Configure SMB shares
-- Join a Windows 11 workstation to the domain
+- Join a Windows 10 workstation to the domain
 - Perform Active Directory security auditing
 - Learn BloodHound and PingCastle
 
