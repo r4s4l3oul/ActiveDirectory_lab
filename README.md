@@ -55,7 +55,7 @@ Kali Linux
 - [x] Install Active Directory Domain Services
 - [x] Create LAB.LOCAL domain
 - [x] Create users and groups
-- [ ] Configure GPOs
+- [x] Configure GPOs
 - [x] Configure SMB shares
 - [x] Join CLIENT01 to the domain
 - [ ] BloodHound analysis
