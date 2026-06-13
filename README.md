@@ -25,8 +25,12 @@ DC01 (Windows Server 2022)
 ├── SMB
 └── GPO
 
-CLIENT01 (Windows 11)
-│
+CLIENT01 (Windows 10)
+│── Users ymoumen
+└── Domain Joined Workstation
+
+CLIENT02 (Windows 10)
+│── Users smoumen
 └── Domain Joined Workstation
 
 Kali Linux
