@@ -40,10 +40,28 @@ Organisation actuelle :
 ```text
 ADLAB.LOCAL
 │
-└── Utilisateurs
-    ├── Accueil
-    ├── BTP
-    └── RH
+├── OU Utilisateurs
+│
+├── Utilisateurs
+│   ├── Layla Moumen
+│   ├── Yassir Moumen
+│   └── Syrine Moumen
+│
+├── Groupes
+│   ├── Accueil
+│   │   └── Layla Moumen
+│   │
+│   ├── BTP
+│   │   ├── Layla Moumen
+│   │   └── Yassir Moumen
+│   │
+│   └── RH
+│       └── Syrine Moumen
+│
+└── OU Postes
+    └── Clients
+        ├── CLIENT01
+        └── CLIENT02
 ```
 
 ---
