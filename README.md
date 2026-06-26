@@ -122,7 +122,7 @@ ADLAB.LOCAL
 
 * [x] Installation de Kali Linux
 * [x] Analyse BloodHound
-* [ ] Audit PingCastle
+* [x] Audit
 
 ---
 
